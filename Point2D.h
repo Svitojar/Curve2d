@@ -1,4 +1,5 @@
 #pragma once
+
 namespace lesson_10
 {
 	class Point2D

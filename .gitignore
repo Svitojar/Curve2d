@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+Debug/
+Verhola_HomeWork10.opensdf
+Verhola_HomeWork10.sdf
+.gitattributes

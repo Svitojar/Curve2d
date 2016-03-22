@@ -1,5 +1,7 @@
 #include "Point2D.h"
+
 #include <iostream>
+
 using namespace lesson_10;
 using namespace std;
 
@@ -23,6 +25,7 @@ int lesson_10::Point2D::getY()
 {
 	return this->Y;
 }
+
 lesson_10::Point2D::~Point2D()
 {
 

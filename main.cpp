@@ -15,18 +15,16 @@ void main()
 
 	Line2d* Myline  = new Line2d(*StartPoint, *EndPoint);
 	Arc2d* MyArc = new Arc2d(*StartPoint, *EndPoint,*CentralPoint);
-		
-	Curve2d *MyCurve = Myline;
-	MyCurve->length();
-	Curve2d *MyCurve2 = MyArc;
-	MyCurve2->length();
 
-	cout << "The length of the line "<< Myline->getLength() <<endl;
+	Curve2d *MyCurve = Myline;
+	Curve2d *MyCurve2 = MyArc;
+
+    cout << "The length of the line " << MyCurve->getLength( ) << endl;
 
 	cout << "Radius "<<MyArc->radius() << endl;
 	cout << "The Angle Gamma "<<MyArc->angle()<< endl;
 
-	cout << "The length of the ARC " << MyArc->getLength() << endl;
+    cout << "The length of the ARC " << MyCurve2->getLength( ) << endl;
 
 	cin.get();
 	cin.get();

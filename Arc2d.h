@@ -1,5 +1,7 @@
 #pragma once
+
 #include "Curve2d.h"
+
 namespace lesson_10
 {
 	class Arc2d : public Curve2d
@@ -10,12 +12,9 @@ namespace lesson_10
 		~Arc2d();
 		int radius();
 		double angle();
-		double angle_gama;
-		double Length;
 		double getLength();
-		protected:
+	protected:
 		Point2D CentralPoint;
-		void length();
-		
+        double AngleGamma;
 	};
 }
